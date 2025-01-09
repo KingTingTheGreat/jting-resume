@@ -29,8 +29,8 @@ var ExperienceData = []Experience{
 		EndDate:   "Present",
 		KeyPointList: []string{
 			"Designed and wrote the weekly course material for Web Application Development, teaching students how to create basic websites, progressing up to building and deploying full stack web applications with database and OAuth integration",
-			"Led weekly lab sections for 60+ students, held office hours, and managed a team of 6 undergraduate workers",
-			"Covered material on Git/GitHub, HTML/CSS, JavaScript, Node, React, NextJS, RESTful APIs, HTTP, MongoDB, CI/CD with GitHub Actions, and deployment on Vercel",
+			"Managed a team of six undergraduate workers and led weekly lab sections for 60+ students",
+			"Covered material on Bash, Git/GitHub, HTML/CSS, JavaScript, Node, React, Next.js, RESTful APIs, HTTP, MongoDB, CI/CD with GitHub Actions, and deployment on Vercel",
 		},
 	},
 }

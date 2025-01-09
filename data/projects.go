@@ -16,7 +16,7 @@ var ProjectData = []Project{
 			"Led a technical team in the creation of a tool that enables developers to assess the accessibility of their web projects",
 			"Learned how to create, use, and publish a Chrome extension, enabling users to scan web projects without a live deployment",
 			"Designed and outlined the high-level system architecture and played a key role in its implementation",
-			"Built using NextJS + TypeScript, Go, MongoDB, Vercel, Python + Flask, and GitHub OAuth",
+			"Built using Next.js + TypeScript, Go, MongoDB, Vercel, Python + Flask, and GitHub OAuth",
 		},
 	},
 	{
@@ -36,7 +36,7 @@ var ProjectData = []Project{
 			"Designed and built a trivia buzzer web application to be hosted on a local network, meeting the needs of my family’s annual holiday games",
 			"Utilizes goroutines,websockets, and a centralized player store to easily support hundreds of concurrent users",
 			"Clearly and concisely documented the code and automated its start up, allowing it to be easily shared and used by others, including those with minimal technical experience or knowledge",
-			"Built using NextJS + TypeScript and Golang",
+			"Built using Next.js + TypeScript and Go",
 		},
 	},
 }
