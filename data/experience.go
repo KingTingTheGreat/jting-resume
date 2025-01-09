@@ -45,14 +45,4 @@ var ExperienceData = []Experience{
 			"Adapted curricula and teaching methods to accommodate individual students’ needs",
 		},
 	},
-	{
-		Role:      "Section Leader",
-		Location:  "Remote",
-		Company:   "Stanford University",
-		StartDate: "04/2023",
-		EndDate:   "06/2023",
-		KeyPointList: []string{
-			"Led a weekly class for 15 students, covering the fundamentals of programming with Python by preparing lessons, answering students’ questions, and helping students review, condense, optimize, and clearly document their code",
-		},
-	},
 }

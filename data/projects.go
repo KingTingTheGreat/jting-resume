@@ -20,17 +20,6 @@ var ProjectData = []Project{
 		},
 	},
 	{
-		Title: "Toni Tunes",
-		Role:  "Full-Stack Software Engineer",
-		URL:   "https://toni-tunes.vercel.app",
-		KeyPointList: []string{
-			"Currently building a service that measures the uniqueness of users’ Spotify listening history",
-			"Uses Spotify OAuth to securely sign users in and manage their data",
-			"Simplified scalability by designing stateless and serverless system architecture",
-			"Built using Spotify’s Web API and OAuth, NextJS + TypeScript and MongoDB +  AWS",
-		},
-	},
-	{
 		Title: "LEGO Mosaic Generator",
 		Role:  "Full-Stack Software Engineer",
 		URL:   "https://image-to-lego.vercel.app",
