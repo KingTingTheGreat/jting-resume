@@ -16,7 +16,7 @@ var funcMap = template.FuncMap{
 
 func RenderPage(w io.Writer, data interface{}) {
 	tmpl := template.New("").Funcs(funcMap)
-	tmpl = template.Must(tmpl.ParseFS(views.TemplateViews, "*html"))
+	tmpl = template.Must(tmpl.ParseFS(views.Views, "*html"))
 
 	err := tmpl.ExecuteTemplate(w, "index", data)
 	if err != nil {
