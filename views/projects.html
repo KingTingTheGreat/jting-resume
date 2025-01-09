@@ -4,8 +4,8 @@
   <div>
     {{range $i, $proj := .}}
     <div>
-      <p class="font-bold text-xs">
-        <span class="text-sm">{{$proj.Title}}</span> | {{$proj.Role}} |
+      <p class="font-bold text-sm">
+        <span class="text-base">{{$proj.Title}}</span> | {{$proj.Role}} |
         <a
           href="{{$proj.URL}}"
           target="_blank"
@@ -13,7 +13,7 @@
           >{{$proj.URL}}</a
         >
       </p>
-      <ul class="list-disc pl-5 font-normal text-xxs">
+      <ul class="list-disc pl-5 font-normal text-sm">
         {{ range $i, $pt := .KeyPointList }}
         <li>{{ $pt }}</li>
         {{ end }}

@@ -4,7 +4,7 @@
   <div>
     {{ range $i, $edu := . }}
     <div class="font-bold">
-      <div class="flex justify-between w-full text-sm">
+      <div class="flex justify-between w-full text-base">
         <p>{{$edu.School}}</p>
         {{if ne $edu.GPA ""}}
         <p>{{$edu.GPA}}</p>
@@ -18,7 +18,7 @@
         </p>
         <p>{{$edu.StartDate}} - {{$edu.EndDate}}</p>
       </div>
-      <p class="text-xs font-normal">
+      <p class="text-sm font-normal">
         {{ $lastCourseworkIndex := dec (len .RelevantCoursework) }}
         <span class="font-medium">Relevant Coursework: </span>{{ range $i,
         $course := .RelevantCoursework }}{{ $course }}{{if ne $i

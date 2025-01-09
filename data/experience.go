@@ -33,16 +33,4 @@ var ExperienceData = []Experience{
 			"Covered material on Git/GitHub, HTML/CSS, JavaScript, Node, React, NextJS, RESTful APIs, HTTP, MongoDB, CI/CD with GitHub Actions, and deployment on Vercel",
 		},
 	},
-	{
-		Role:      "IT Intern",
-		Location:  "Garden City, NY",
-		Company:   "Lavner Education",
-		StartDate: "06/2023",
-		EndDate:   "08/2023",
-		KeyPointList: []string{
-			"Introduced students to various programming languages, such as Python, C++, Java, Bash, HTML/CSS, and JavaScript",
-			"Led classes on programming basics, terminal usage, Git/GitHub, web app development, and game development",
-			"Adapted curricula and teaching methods to accommodate individual students’ needs",
-		},
-	},
 }

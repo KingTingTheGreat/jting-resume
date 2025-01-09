@@ -33,7 +33,7 @@ var ProjectData = []Project{
 		Role:  "Full-Stack Software Engineer",
 		URL:   "https://github.com/KingTingTheGreat/trivia-app",
 		KeyPointList: []string{
-			"Designed and built a trivia game to be hosted on a local network, meeting the needs of my family’s annual holiday games",
+			"Designed and built a trivia buzzer web application to be hosted on a local network, meeting the needs of my family’s annual holiday games",
 			"Utilizes goroutines,websockets, and a centralized player store to easily support hundreds of concurrent users",
 			"Clearly and concisely documented the code and automated its start up, allowing it to be easily shared and used by others, including those with minimal technical experience or knowledge",
 			"Built using NextJS + TypeScript and Golang",
