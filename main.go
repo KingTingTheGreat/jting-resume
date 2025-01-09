@@ -2,17 +2,12 @@ package main
 
 import (
 	"fmt"
-	"jting-resume/data"
-	"jting-resume/render"
+	"github.com/kingtingthegreat/jting-resume/handler"
 	"net/http"
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	render.RenderPage(w, data.ResumeData)
-}
-
 func main() {
-	http.HandleFunc("/", handler)
+	http.HandleFunc("/", handler.Handler)
 	http.HandleFunc("/styles.css", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, "styles.css")
 	})
