@@ -1,6 +1,9 @@
 package data
 
+import "time"
+
 type Resume struct {
+	Date           string
 	Header         Header
 	ExperienceList []Experience
 	ProjectList    []Project
@@ -9,6 +12,7 @@ type Resume struct {
 }
 
 var ResumeData = Resume{
+	Date:           time.Now().Format("01-02-2006"),
 	Header:         HeaderData,
 	ExperienceList: ExperienceData,
 	ProjectList:    ProjectData,
