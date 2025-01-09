@@ -1,4 +1,4 @@
-package handler
+package handlers
 
 import (
 	"github.com/kingtingthegreat/jting-resume/data"
@@ -6,6 +6,6 @@ import (
 	"net/http"
 )
 
-func Handler(w http.ResponseWriter, r *http.Request) {
+func ResumeHandler(w http.ResponseWriter, r *http.Request) {
 	render.RenderPage(w, data.ResumeData)
 }
