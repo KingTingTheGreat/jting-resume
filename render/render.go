@@ -4,6 +4,8 @@ import (
 	"html/template"
 	"io"
 	"log"
+
+	"github.com/kingtingthegreat/jting-resume/views"
 )
 
 var funcMap = template.FuncMap{
@@ -13,9 +15,8 @@ var funcMap = template.FuncMap{
 }
 
 func RenderPage(w io.Writer, data interface{}) {
-	log.Println(views)
 	tmpl := template.New("").Funcs(funcMap)
-	tmpl = template.Must(tmpl.ParseGlob("public/views/*.html"))
+	tmpl = template.Must(tmpl.ParseFS(views.TemplateViews, "*html"))
 
 	err := tmpl.ExecuteTemplate(w, "index", data)
 	if err != nil {
