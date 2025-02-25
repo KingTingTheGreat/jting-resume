@@ -25,6 +25,7 @@ var SkillsData = Skills{
 		"Flask",
 		"SQL",
 		"MongoDB",
+		"Redis",
 		"AWS",
 		"Azure",
 		"Google Cloud",
