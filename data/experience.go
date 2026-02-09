@@ -17,7 +17,7 @@ var ExperienceData = []Experience{
 		StartDate: "06/2025",
 		EndDate:   "Present",
 		KeyPointList: []string{
-			"Developed an application to track the migration of 700+ internal applications from on-prem data centers to the cloud, saving hundreds of thousands of dollars in operational, development, and maintenance costs",
+			"Developed an application to track the migration of 700+ applications from on-prem data centers to the cloud, saving hundreds of thousands of dollars in operational, development, and maintenance costs",
 			"Implemented internal CSS and MUI frontend libraries to ensure accessibility and brand consistency across the organization's thousands of internal and customer-facing applications",
 		},
 	},
