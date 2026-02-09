@@ -14,8 +14,8 @@ var ProjectData = []Project{
 		URL:   "https://accessiscan.vercel.app",
 		KeyPointList: []string{
 			"Led a technical team in the creation of a tool that enables developers to assess the accessibility of their web projects",
-			"Learned how to create, use, and publish a Chrome extension, enabling users to scan web projects without a live deployment",
-			"Designed and outlined the high-level system architecture and played a key role in its implementation",
+			"Learned how to create, use, and publish a Chrome extension, enabling users to scan web projects in the browser without a live deployment",
+			"Designed and outlined the high-level system architecture and played a key role in all aspects of its implementation",
 			"Built using Next.js + TypeScript, Go, MongoDB, Vercel, Python + Flask, and GitHub OAuth",
 		},
 	},
@@ -33,8 +33,8 @@ var ProjectData = []Project{
 		Role:  "Full-Stack Software Engineer",
 		URL:   "https://github.com/KingTingTheGreat/trivia-app",
 		KeyPointList: []string{
-			"Designed and built a trivia buzzer web application to be hosted on a local network, meeting the needs of my family’s annual holiday games",
-			"Utilizes goroutines,websockets, and a centralized player store to easily support hundreds of concurrent users",
+			"Designed and built a live buzzer application, enhancing my family’s annual holiday games by reducing human error",
+			"Utilizes goroutines, websockets, and a centralized player store to easily support hundreds of concurrent users",
 			"Clearly and concisely documented the code and automated its start up, allowing it to be easily shared and used by others, including those with minimal technical experience or knowledge",
 			"Built using Next.js + TypeScript and Go",
 		},
